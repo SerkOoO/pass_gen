@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="styles.css" rel="stylesheet">
+    <title>Pass Gen</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+        <h1 class="titre">PASS GEN</h1>
+        <div class="lenght">
+          <label for=""> Lenght </label>
+          <input type="number" class="first_input" id="length_pass" />
+        </div>
+   
+
+        <div class="output">
+          <span class="password" id="password"></span>
+        </div>
+
+        <button class="button_generate" onclick="generate_pass()" id="generate_password">GENERATE PASSWORD</button>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
